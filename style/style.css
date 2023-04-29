@@ -1,0 +1,491 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+  background-color: white;
+  height: 100%;
+}
+
+
+/* Header Start */
+header{
+  position: fixed;
+  width: 100%;
+  color: black;
+  z-index: 999;
+}
+.navbar{
+  background-color: #ffcc04;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.navbar-brand{
+  color: black;
+  font-weight: bold;
+}
+
+.nav-item a{
+  color: black;
+}
+
+.nav-item a:hover{
+  color: white;
+}
+#login-btn:hover{
+  color: white;
+  background-color: #f4511e;
+}
+.navbar-brand:hover{
+  color: white;
+  
+}
+/* Header End */
+
+
+
+
+
+.whiteCont{
+  background-color: white;
+}
+
+
+
+
+
+/* Hero Start */
+
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.hero-text h3{
+  /* color: #ffcc04; */
+  color: black;
+}
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+
+h3 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 18px;
+  color: #55544c;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+}
+
+.btn-outline-primary {
+  color: #f05e5e;
+  border-color: #f05e5e;
+}
+
+.btn-outline-primary:hover {
+  background-color: #f05e5e;
+  color: #fff;
+}
+
+.btn-outline-primary:hover a{
+  color: #fff;
+}
+
+@media(max-width: 767px) {
+  /* On small screens, stack the columns vertically */
+  .row {
+    flex-direction: column;
+  }
+  
+  /* On small screens, center the image horizontally */
+  .col-xs-12.col-sm-5 {
+    text-align: center;
+  }
+  
+  /* On small screens, add some margin to the bottom of the image */
+  .col-xs-12.col-sm-5 img {
+    margin-bottom: 30px;
+  }
+  
+  /* On small screens, remove the right margin from the second button */
+  .bner-cnt .btn:last-child {
+    margin-right: 0;
+  }
+  .btn-container{
+    margin-bottom: 20px;
+  }
+}
+
+/* Hero End */
+
+
+
+
+/* About Start */
+.about{
+  background-color: #ffcc04;
+}
+.aboutHead{
+  color: #55544c;
+}
+.lead{
+  font-size: 28px;
+}
+h1.mb-4{
+  font-weight: 800;
+}
+/* About End */
+
+
+
+/* Advantages Start */
+
+.whyus{
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+.rounded-circle {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Advantages End */
+  
+
+/* How does it work Start */
+.how-it-works {
+  background-color: #ffcc04;
+}
+.hori-timeline .events {
+  border-top: 1px solid white;
+}
+.hori-timeline .events .event-list {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding-top: 70px;
+  margin-right: 0;
+}
+.hori-timeline .events .event-list:before {
+  content: "";
+  position: absolute;
+  height: 36px;
+  border-right: 2px dashed #dee2e6;
+  top: 0;
+}
+.hori-timeline .events .event-list .event-date {
+  position: absolute;
+  top: 38px;
+  left: 0;
+  right: 0;
+  width: 75px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+@media (min-width: 1140px) {
+  .hori-timeline .events .event-list {
+      display: inline-block;
+      width: 24%;
+      padding-top: 45px;
+  }
+  .hori-timeline .events .event-list .event-date {
+      top: -12px;
+  }
+}
+.bg-soft-primary {
+  background-color: rgba(64,144,203,.3)!important;
+}
+.bg-soft-success {
+  background-color: rgba(71,189,154,.3)!important;
+}
+.bg-soft-danger {
+  background-color: rgba(231,76,94,.3)!important;
+}
+.bg-soft-warning {
+  background-color: rgba(249,213,112,.3)!important;
+}
+.card-timeline {
+  border: none;
+  margin-bottom: 24px;
+
+}
+.events .event-list{
+  margin: 0 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .events .event-list {
+    margin: 0 5px;
+  }
+}
+
+.events .event-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.events .event-list .px-4 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.events .event-list h5 {
+  margin-bottom: 0.5rem;
+}
+
+.events .event-list p {
+  flex-grow: 1;
+  margin-bottom: 0.5rem;
+}
+/* How does it work End */
+
+
+
+/* Pricing Start */
+.panel {
+  border: 1px solid #f4511e; 
+  border-radius: 8px;
+  transition: box-shadow 0.5s;
+}
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.panel-footer .btn:hover {
+  border: 1px solid #f4511e;
+  background-color: #fff !important;
+  color: #f4511e;
+  
+}
+.panel-heading {
+  color: black;
+  background-color: #ffcc04;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel-footer {
+  background-color: white !important;
+  border-radius: 8px;
+}
+.panel-footer h3 {
+  font-size: 32px;
+}
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .panel{
+    margin-bottom: 30px;
+  }
+}
+/* Pricing End */
+
+
+/* Contact Start */
+.contact {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffcc04;
+}
+.contact .content {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .contact .content {
+    flex-direction: column;
+  }
+}
+.contact .content form {
+  flex-basis: 70%;
+}
+.contact .content form .main-input {
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.contact .content form .main-input:focus {
+  outline: none;
+}
+.contact .content form textarea.main-input {
+  height: 200px;
+}
+.contact .content form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  padding: 20px;
+  border: none;
+  display: flex;
+  margin-left: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.contact .content .info {
+  flex-basis: 25%;
+}
+@media (max-width: 767px) {
+  .contact .content .info {
+    order: -1;
+    text-align: center;
+  }
+}
+.contact .content .info h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.contact .content .info .phone {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+}
+.contact .content .info h4:nth-of-type(2) {
+  margin-top: 90px;
+}
+@media (max-width: 767px) {
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 30px;
+  }
+}
+.contact .content .info address {
+  color: #777;
+  line-height: 2;
+}
+@media (max-width: 767px) {
+  .contact .content .info address {
+    margin-bottom: 40px;
+  }
+}
+/* End Contact */
+
+
+
+/* Footer Start */
+.footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.footer h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.footer ul li i {
+  margin-right: 10px;
+  color: #fed136;
+}
+
+.footer ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fed136;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.footer ul li a:hover {
+  background-color: #e6b800;
+  color: #fff;
+}
+
+.footer hr {
+  border-top: 1px solid #e9e9e9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer p.text-center {
+  font-size: 14px;
+  color: #999;
+}
+/* Footer End */

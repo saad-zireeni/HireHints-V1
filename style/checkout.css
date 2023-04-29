@@ -1,0 +1,106 @@
+    /* Center the page */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+      main {
+        flex: 1;
+      }
+
+
+      /* Style the header */
+      .navbar{
+        background-color: #ffcc04;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+      }
+      .navbar-brand{
+        color: black;
+        font-weight: bold;
+      }
+      
+      .nav-item a{
+        color: black;
+      }
+      
+      .nav-item a:hover{
+        color: white;
+      }
+      #login-btn{
+        background-color: transparent;
+      }
+      #login-btn:hover{
+        color: white;
+        background-color: #f4511e;
+      }
+      .navbar-brand:hover{
+        color: white;
+        
+      }
+
+      /* Style the checkout section */
+      .checkout-section {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+      }
+      /* Style the footer */
+      footer {
+        background-color: #ffcc04;
+        color: black;
+        padding: 30px 0;
+      }
+      /* Make the page fully responsive */
+      @media (max-width: 767.98px) {
+        .navbar {
+          padding: 10px;
+        }
+        .checkout-section {
+          padding: 30px 0;
+        }
+        footer {
+          padding: 20px 0;
+        }
+        .row{
+          flex-direction: column-reverse;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .navbar {
+          padding: 15px;
+        }
+        .checkout-section {
+          padding: 50px 0;
+        }
+        footer {
+          padding: 25px 0;
+        }
+      }
+      @media (min-width: 992px) {
+        .navbar {
+          padding: 20px;
+        }
+        .checkout-section {
+          padding: 60px 0;
+        }
+        footer {
+          padding: 30px 0;
+        }
+      }
+
+
+      #pay-btn{
+        background-color: black;
+        color: white;
+        border: none;
+      }
+
+      #pay-btn:hover{
+        background-color: #ffcc04;
+        color: black;
+        border: none;
+      }
+
+      .list-group-item *span{
+        font-weight: bold;
+      }

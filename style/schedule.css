@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+  background-color: white;
+  height: 100%;
+}
+
+
+/* Header Start */
+header{
+    position: fixed;
+    width: 100%;
+    color: black;
+    z-index: 999;
+  }
+  .navbar{
+    background-color: #ffcc04;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  .navbar-brand{
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-item a{
+    color: black;
+  }
+  
+  .nav-item a:hover{
+    color: white;
+  }
+  #login-btn:hover{
+    color: white;
+    background-color: #f4511e;
+  }
+  .navbar-brand:hover{
+    color: white;
+    
+  }
+  /* Header End */
+
+  footer{
+    background-color: #ffcc04;
+  }
+
+
+  #checkout-btn {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.125rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #ffcc04;
+    color: black;
+  }
+
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }

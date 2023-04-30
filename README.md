@@ -10,3 +10,6 @@ Whether you're a recent graduate, a career changer, or simply looking to improve
 
 ### Figma Links:
 [WireFrame / Mockup](https://www.figma.com/file/xbUKVRiASY4XJ22XeT7Qhm/HireHints?node-id=0%3A1&t=hKMec7PvcljJzstm-1)
+
+### Live Demo Link:
+[HireHints](https://saad-zireeni.github.io/HireHints/)

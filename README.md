@@ -9,4 +9,4 @@ Our platform is easy to use and can be accessed from anywhere with an internet c
 Whether you're a recent graduate, a career changer, or simply looking to improve your interview skills, HireHints is the perfect platform to help you succeed. Try our online video mock interviews today and take the first step towards your dream career.
 
 ### Figma Links:
-[WireFrame / Mockup](https://www.figma.com/file/xbUKVRiASY4XJ22XeT7Qhm/HireHints?t=zuvfUOqANG99DOHw-1)
+[WireFrame / Mockup](https://www.figma.com/file/rBZBzhIwmlENABQhaK3B1E/Mockup-v2?node-id=0-1&t=GId8TRxF1pmDBEkz-0)
